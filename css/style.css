@@ -193,7 +193,7 @@ footer {
   .nav-footer {
     display: flex;
     font-family: 'Georgia', sans-serif;
-    padding-left: 80%;
+    padding-left: 50%;
     text-align: right;
     color: #330000;
   }
@@ -218,6 +218,12 @@ footer {
   nav {
     display: flex;
     justify-content: space-between;
+  }
+
+  .nav-footer {
+    padding-left: 70%;
+    position: relative;
+
   }
 
   .nav {
