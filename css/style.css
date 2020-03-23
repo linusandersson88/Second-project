@@ -1,5 +1,5 @@
 * {
-  font-family: 'Georgia', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   color: #330000;
 }
@@ -101,19 +101,21 @@ a:hover {
 .contact-info {
   font-weight: 700;
 
+
 }
 .name {
   text-align: left;
   color: black;
+  float: left;
+  margin-top: 0;
 }
 .tops {
-    padding-left: 70%;
-    position: relative;
-    padding-bottom: 100px;
-}
+    float: right;
 
-footer {
-  display: flex;
+  }
+    
+
+footer {  
   flex-direction: row;
   justify-content: space-between;
   font-weight: 700;
@@ -125,7 +127,7 @@ footer {
   display: none;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .nav {
     width: 335px;
     display: flex;
